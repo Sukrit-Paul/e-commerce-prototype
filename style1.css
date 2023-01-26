@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    height: 100vh;
+    width: 100vw;
+}    
+.text{
+    height: 100%;
+    width: 100%;
+    background:url(images/background1.gif);
+    background-size: 1540px 725px;
+    background-repeat: no-repeat;
+}    
+body{
+   
+    font-size: 40px;
+    background-color: #1e2525;
+
+}
+.con{
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+   
+    
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 40%;
+}
+.btn:hover{
+    background: #06f591;
+}
+.one{
+    height: 100%;
+    width: 100%;
+    background:url(images/background2.gif);
+    background-size: 1500px 600px;
+    margin-bottom: -150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.eno{
+    height: 100%;
+    width: 100%;
+    background:url(images/background2.gif);
+    background-size: 1500px 600px;
+    margin-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.three{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 137px;
+}
+.four{
+    margin-bottom: 127px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.six{
+    color: rgb(6, 255, 101);
+    font-family: cursive;
+margin-right: 730px;
+}
+.five{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.seven{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    color: rgb(127, 255, 138);
+}
+.seven img{
+    width: 100%;
+}
+.ten{
+    margin: 70px 0;
+ }
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: rgb(243, 103, 10);
+    font-size: 50px;
+}
+.title::after
+{
+    content: '';
+    background: #07f169;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    text-decoration: none;
+    color:rgb(206, 218, 39);
+}
+.eleven{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.brands{
+    margin: 100px auto;
+    box-sizing: border-box;
+    border-style: groove;
+    border: 3px solid rgb(0, 255, 136);
+    height: 150px;
+    background-color: rgb(64, 170, 165);
+}
+.nine{
+    width: 160px;
+}
+.nine img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    margin-top: 20px;
+}
+.nine img:hover{
+    filter: grayscale(0);
+}
+.eight{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.eight img{
+    width: 100%;
+}
+.sixteen{
+    display: inline-block;
+    background: #b2f7ac;
+    color: rgb(37, 201, 31);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    transition: background 0.5s;
+    font-size: 20px;
+}
+.fifteen{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 20px;
+}
+.seventeen {
+    text-decoration: line-through;
+}
+.about{
+    text-align: center;
+    margin-top: 250px;
+    
+        background: radial-gradient(rgb(9, 199, 233),#0af564);
+        width: 530px;
+        height: 220px;
+        margin-left: 500px;
+        box-sizing: border-box;
+        border-style: solid;
+        font-style: italic;
+    
+}
+.contact {
+    text-align: center;
+    margin-top: 250px;
+    
+        background: radial-gradient(rgb(9, 199, 233),#0af564);
+        width: 550px;
+        height: 700px;
+        margin-left: 500px;
+        box-sizing: border-box;
+        border-style: solid;
+    
+}
